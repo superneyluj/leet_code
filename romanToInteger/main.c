@@ -7,12 +7,6 @@ int romanToInt(char* s) {
     int sizeOfString = strlen(s);
     int integerResut = 0;
 
-    //MCMXCIV
-    // M    =       1000  
-    // CM   =       900 
-    // XC   =       90  
-    // IV   =       4
-
     for(int i = 0; i < sizeOfString; i++){
         printf("\nelement %c",s[i]);
         switch(s[i]){      
